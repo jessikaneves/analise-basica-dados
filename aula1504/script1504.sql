@@ -8,3 +8,4 @@ select cod_depto from departamento where cod_depto < 5
 select * from empregado where cod_emp in(
 select  cod_emp from dependente where floor(datediff(now(), dt_nascimento) / 365) < 10
 );
+pessoachamado
